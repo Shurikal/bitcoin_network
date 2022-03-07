@@ -61,12 +61,13 @@ seed.bitcoin.sipa.be.   3600    IN      A       5.9.28.141
 
 ## Geolocation
 - [Geoplugin](http://www.geoplugin.com/)
-- [IP-API] (https://ip-api.com/)
+- [IP-API](https://ip-api.com/)
 
 ## TODO
-- Adjust the bitcoin-seeder to dump the addrlist of each node => Helps to create relationships between nodes
-- Import to a GraphDB or other alternatives
-- Classify manually high degree nodes (Mining pool, exchange platform, etc.)
+* Adjust the bitcoin-seeder to dump the addrlist of each node => Helps to create relationships between nodes
+* Import to a GraphDB or other alternatives 
+   + [scikit-network](https://scikit-network.readthedocs.io/en/latest/)
+* Classify manually high degree nodes (Mining pool, exchange platform, etc.)
 
 ## Resources
 - https://developer.bitcoin.org/devguide/p2p_network.html
