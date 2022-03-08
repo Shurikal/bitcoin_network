@@ -58,11 +58,12 @@ seed.bitcoin.sipa.be.   3600    IN      A       5.9.28.141
 ```
 - To get known peers from a node, addr command is used: https://github.com/sipa/bitcoin-seeder/blob/3ef602de83a76bc95a06867d4bfc239f13992140/bitcoin.cpp#L134
 - The [makeseeds.py](https://github.com/bitcoin/bitcoin/blob/master/contrib/seeds/makeseeds.py) already retrieves the ASN per IP. 
+- Python implementation of [getaddr](https://stackoverflow.com/questions/58080849/how-do-i-get-the-response-of-getaddr-from-a-bitcoin-node-using-socket-programmin)
 
 ## Geolocation
 - [Geoplugin](http://www.geoplugin.com/)
 - [IP-API](https://ip-api.com/)
-
+ 
 ## TODO
 * Adjust the bitcoin-seeder to dump the addrlist of each node => Helps to create relationships between nodes
 * Import to a GraphDB or other alternatives 
