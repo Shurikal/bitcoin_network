@@ -63,6 +63,10 @@ seed.bitcoin.sipa.be.   3600    IN      A       5.9.28.141
 ## Geolocation
 - [Geoplugin](http://www.geoplugin.com/)
 - [IP-API](https://ip-api.com/)
+
+## TxProbe
+
+* [Paper](https://arxiv.org/pdf/1812.00942.pdf)
  
 ## TODO
 * Adjust the bitcoin-seeder to dump the addrlist of each node => Helps to create relationships between nodes
